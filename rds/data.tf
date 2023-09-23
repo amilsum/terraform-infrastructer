@@ -5,7 +5,7 @@ data "terraform_remote_state" "vpc" {
     organization = "mutalibova"
 
     workspaces = {
-      name = "vpc-prod"
+      name = "vpc"
     }
   }
 }
